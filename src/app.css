@@ -1,16 +1,3 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-:root {
-	--bg-color: #16161a;
-	--text-color: #fffffe;
-	--primary-color: #2cb67d;
-	--secondary-color: #c6c6c6;
-}
-
-body {
-	font-family: 'Popins', sans-serif;
-	background-color: var(--bg-color);
-	color: var(--text-color);
-}

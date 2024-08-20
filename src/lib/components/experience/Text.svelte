@@ -9,12 +9,3 @@
 		techniques que sur la gestion du projet.
 	</p>
 </div>
-
-<style>
-	.text {
-		max-width: 500px;
-	}
-	p {
-		margin: 0 0 1.5rem;
-	}
-</style>

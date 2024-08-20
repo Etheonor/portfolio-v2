@@ -4,28 +4,11 @@
 	import Title from './Title.svelte';
 </script>
 
-<header>
-	<div>
+<header class="flex flex-col lg:flex-row justify-center lg:justify-between space-y-7">
+	<div class="lg:order-2"><Image /></div>
+
+	<div class="max-w-lg flex flex-col space-y-7 m-auto lg:m-0">
 		<Title />
 		<Text />
 	</div>
-	<Image />
 </header>
-
-<style>
-	header {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		width: 100%;
-		justify-content: space-between;
-	}
-
-	@media (min-width: 800px) {
-		header {
-			flex-direction: row;
-			justify-content: space-between;
-			align-items: center;
-		}
-	}
-</style>

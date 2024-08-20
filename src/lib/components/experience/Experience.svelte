@@ -4,10 +4,10 @@
 	import Title from './Title.svelte';
 </script>
 
-<header class="flex justify-around flex-wrap">
-	<div class="order-1 md:order-2 md:ml-4">
+<header class="flex flex-col lg:flex-row justify-center lg:justify-between space-y-7">
+	<Image />
+	<div class="max-w-lg flex flex-col space-y-7 m-auto lg:m-0">
 		<Title />
 		<Text />
 	</div>
-	<Image />
 </header>

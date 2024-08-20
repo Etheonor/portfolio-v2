@@ -1,7 +1,3 @@
-<h1>👋 Bonjour, <br />Moi c’est <span>Michaël</span></h1>
-
-<style>
-	span {
-		color: var(--primary-color);
-	}
-</style>
+<h1 class="text-5xl">
+	👋 Bonjour, <br />Moi c’est <span class="text-mountain-meadow-500">Michaël</span>
+</h1>
