@@ -3,7 +3,7 @@
 	import Experience from '$lib/components/experience/Experience.svelte';
 </script>
 
-<div class="flex flex-col max-w-[1100px] w-full mx-auto space-y-48">
+<div class="flex flex-col max-w-[1024px] w-full mx-auto space-y-48">
 	<Header />
 	<Experience />
 </div>
