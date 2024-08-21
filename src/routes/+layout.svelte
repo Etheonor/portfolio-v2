@@ -1,11 +1,13 @@
 <script>
 	import '../app.css';
 	import Navbar from '$lib/components/navbar/Navbar.svelte';
+	import Footer from '$lib/components/footer/Footer.svelte';
 </script>
 
-<div id="page" class="bg-bgColor text-textColor flex space-y-48">
-	<Navbar />
+<div id="page" class="bg-bgColor text-textColor space-y-48 flex">
+	<div class="sticky top-0 z-50 bg-bgColor"><Navbar /></div>
 	<slot />
+	<Footer />
 </div>
 
 <style>

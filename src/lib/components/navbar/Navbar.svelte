@@ -15,7 +15,7 @@
 	}
 </script>
 
-<nav class="border-b text-silver-300">
+<nav class="border-b text-silver-300 h-20 lg:h-fit">
 	<!-- Menu mobile -->
 	{#if isOpen}
 		<HamburgerMenu {closeMenu} />
@@ -35,6 +35,5 @@
 		align-items: center;
 		padding: 1em 2em;
 		margin: -1em -1em 0 -1em;
-		position: relative;
 	}
 </style>
