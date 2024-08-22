@@ -5,9 +5,9 @@
 <FadeInObserver>
 	<div
 		id="contact"
-		class="flex flex-col justify-center lg:justify-between space-y-7 max-w-lg lg:max-w-full m-auto"
+		class="flex flex-col justify-center lg:justify-between space-y-7 max-w-lg lg:max-w-xl m-auto"
 	>
-		<h2 class="text-5xl lg:text-center">
+		<h2 class="text-5xl">
 			Parlez-moi de votre <span class="text-mountain-meadow-500">projet</span>
 		</h2>
 		<p class="max-w-xl m-auto">
@@ -16,7 +16,7 @@
 			formulaire ci-dessous !
 		</p>
 
-		<form action="">
+		<form data-static-form-name="contact" method="POST">
 			<div class="flex flex-col space-y-5 max-w-xl m-auto">
 				<div class="flex justify-between flex-wrap space-y-5 lg:space-y-0">
 					<div class="flex flex-col space-y-2 flex-wrap">

@@ -1,6 +1,6 @@
 <script>
 </script>
 
-<div class="flex flex-col lg:flex-row border rounded-lg p-5 lg:h-32">
+<div class="flex flex-col max-w-64 h-80 p-3 space-y-3">
 	<slot />
 </div>
