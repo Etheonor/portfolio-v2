@@ -5,6 +5,7 @@
 </script>
 
 <button
+	aria-label="Fermeture du menu"
 	in:fly={{ x: 300, duration: 300 }}
 	out:fade={{ duration: 200 }}
 	on:click={closeMenu}

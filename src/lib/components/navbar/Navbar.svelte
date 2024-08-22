@@ -23,7 +23,7 @@
 	<Logo />
 	<Menu />
 	<ContactButton />
-	<button class="lg:hidden" on:click={toggleMenu}>
+	<button class="lg:hidden" on:click={toggleMenu} aria-label="Menu de navigation">
 		<HamburgerImg />
 	</button>
 </nav>
