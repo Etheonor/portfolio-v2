@@ -1,13 +1,8 @@
-<p class="text">
-	Bienvenue sur mon portfolio ! Je m’appelle Michaël Breyton, et je suis un développeur passionné
-	avec trois années d'expérience dans la création et la maintenance de sites web.
-</p>
+<h1 class="text-5xl">
+	👋 Bonjour, <br />Moi c’est <span class="text-mountain-meadow-500">Michaël</span>
+</h1>
 
-<style>
-	.text {
-		max-width: 500px;
-	}
-	p {
-		margin: 0 0 1.5rem;
-	}
-</style>
+<p class="lg:text-lg">
+	Bienvenue sur mon portfolio ! Je m’appelle Michaël Breyton, et je suis un développeur passionné,
+	basé en Bretagne, avec trois années d'expérience dans la création et la maintenance de sites web.
+</p>

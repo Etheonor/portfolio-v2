@@ -1,43 +1,19 @@
-<script>
+<script lang="ts">
 	import Image from './Image.svelte';
 	import Text from './Text.svelte';
 	import Title from './Title.svelte';
+	import FadeInObserver from '$lib/utilities/FadeInObserver.svelte';
 </script>
 
-<header>
-	<div>
-		<Title />
-		<Text />
+<FadeInObserver>
+	<div
+		class="flex flex-col lg:flex-row justify-center lg:justify-between space-y-7 animate scroll-my-16"
+		id="about"
+	>
+		<Image />
+		<div class="max-w-lg flex flex-col space-y-7 m-auto lg:m-0">
+			<Title />
+			<Text />
+		</div>
 	</div>
-	<Image />
-</header>
-
-<style>
-	header {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		width: 100%;
-		justify-content: space-between;
-	}
-	header > div {
-		order: 0; /* Par défaut, le texte est en deuxième position */
-	}
-	header > :global(img) {
-		order: 0; /* Par défaut, l'image est en première position */
-	}
-
-	@media (min-width: 800px) {
-		header {
-			flex-direction: row;
-			justify-content: space-between;
-			align-items: center;
-		}
-		header > div {
-			order: 1; /* Réinitialiser l'ordre pour les écrans plus larges */
-		}
-		header > div {
-			order: 2; /* Par défaut, le texte est en deuxième position */
-		}
-	}
-</style>
+</FadeInObserver>

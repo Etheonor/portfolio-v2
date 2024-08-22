@@ -1,4 +1,4 @@
-<div class="text">
+<div class="text lg:ml-4 lg:text-lg flex flex-col space-y-4">
 	<p>
 		Fort de trois ans d’expérience à développer des sites internet pour mon entreprise et moi même,
 		je suis désormais prêt à mettre mes compétences à votre service pour créer le site dont vous
@@ -9,12 +9,3 @@
 		techniques que sur la gestion du projet.
 	</p>
 </div>
-
-<style>
-	.text {
-		max-width: 500px;
-	}
-	p {
-		margin: 0 0 1.5rem;
-	}
-</style>
