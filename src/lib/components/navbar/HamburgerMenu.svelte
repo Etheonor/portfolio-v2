@@ -10,7 +10,12 @@
 	on:click={closeMenu}
 	class="cursor-default absolute top-0 right-0 transition ease-in-out delay-150 duration-100 w-screen h-screen bg-black bg-opacity-30 backdrop-blur-lg z-50 flex flex-col justify-center items-center space-y-7"
 >
-	<button type="button" class="absolute top-5 right-5 p-4" on:click={closeMenu}>
+	<button
+		aria-label="Menu de navigation"
+		type="button"
+		class="absolute top-5 right-5 p-4"
+		on:click={closeMenu}
+	>
 		<svg
 			xmlns="http://www.w3.org/2000/svg"
 			class="h-8 w-8 text-silver-300"
