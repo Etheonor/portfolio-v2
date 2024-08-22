@@ -1,5 +1,8 @@
 <script>
 	import { page } from '$app/stores';
+
+	// Fonction pour déterminer si on est sur la page d'accueil
+	$: isHomePage = $page.url.pathname === '/';
 </script>
 
 <ul class="lg:flex space-x-7 hidden">
@@ -12,7 +15,7 @@
 	</li>
 	<li>
 		<a
-			href="#about"
+			href={isHomePage ? '#about' : '/#about'}
 			class="{$page.url.hash == '#about'
 				? 'text-white'
 				: 'text-silver-300'} hover:text-white transition">À propos</a
@@ -20,7 +23,7 @@
 	</li>
 	<li>
 		<a
-			href="#work"
+			href={isHomePage ? '#work' : '/#work'}
 			class="{$page.url.hash == '#work'
 				? 'text-white'
 				: 'text-silver-300'} hover:text-white transition">Réalisations</a
@@ -28,7 +31,7 @@
 	</li>
 	<li>
 		<a
-			href="#services"
+			href={isHomePage ? '#services' : '/#services'}
 			class="{$page.url.hash == '#services'
 				? 'text-white'
 				: 'text-silver-300'} hover:text-white transition">Services</a

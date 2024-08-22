@@ -15,9 +15,9 @@
 			Mes dernières <span class="text-mountain-meadow-500">réalisations</span>
 		</h2>
 		<div class="flex flex-row sm:space-x-4 space-y-6 justify-center items-end flex-wrap">
-			<ProjectCard projectImage={Geo} projectName="Géo Vadrouille" />
-			<ProjectCard projectImage={Multy} projectName="Multy" />
-			<ProjectCard projectImage={Travelogue} projectName="Travelogue" />
+			<ProjectCard projectImage={Geo} projectName="Géo Vadrouille" slug="geovadrouille" />
+			<ProjectCard projectImage={Multy} projectName="Multy" slug="multy" />
+			<ProjectCard projectImage={Travelogue} projectName="Travelogue" slug="travelogue" />
 		</div>
 	</div>
 </FadeInObserver>
