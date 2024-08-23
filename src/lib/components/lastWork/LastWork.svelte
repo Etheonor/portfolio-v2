@@ -11,7 +11,7 @@
 		id="work"
 		class="flex flex-col justify-center lg:justify-between space-y-7 max-w-lg lg:max-w-full m-auto animate scroll-my-24"
 	>
-		<h2 class="text-5xl lg:text-center">
+		<h2 class="text-5xl lg:text-center font-semibold">
 			Mes dernières <span class="text-mountain-meadow-500">réalisations</span>
 		</h2>
 		<div class="flex flex-row sm:space-x-4 space-y-6 justify-center items-end flex-wrap">

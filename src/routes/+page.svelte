@@ -33,7 +33,7 @@
 	<ContactPopUp on:close={handleClose} />
 {/if}
 
-<div class="flex flex-col max-w-[1024px] w-full mx-auto space-y-36 lg:space-y-48">
+<div class="flex flex-col max-w-[1024px] w-full mx-auto space-y-36 lg:space-y-48 font-light">
 	<Header />
 	<Experience />
 	<WorkWithMe />

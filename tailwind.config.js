@@ -14,7 +14,8 @@ export default {
 				blink: 'blink 1s step-start infinite'
 			},
 			colors: {
-				bgColor: '#16161a',
+				bgColor: '#222224',
+				cardColor: '#404643',
 				textColor: '#fffffe',
 				'mountain-meadow': {
 					50: '#eefbf4',

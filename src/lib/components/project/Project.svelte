@@ -14,7 +14,8 @@
 	<a
 		target="_blank"
 		href={url}
-		class=" bg-mountain-meadow-500 w-fit px-5 py-1 hover:bg-mountain-meadow-700 transition m-auto rounded-sm text-2xl font-bold text-center tracking-wider"
+		class="border-2 px-4 py-1 rounded-full border-mountain-meadow-500 lg:flex hidden hover:bg-mountain-meadow-500
+     hover:text-white transition-all ease-in duration-100 w-fit m-auto tracking-wider text-xl"
 		>Voir le projet
 	</a>
 </div>

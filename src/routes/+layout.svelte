@@ -16,7 +16,7 @@
 	<meta name="theme-color" content="#ffffff" />
 </head>
 
-<div id="page" class="bg-bgColor text-textColor space-y-48 flex">
+<div id="page" class="bg-bgColor text-textColor space-y-20 flex">
 	<div class="sticky top-0 z-50 bg-bgColor"><Navbar /></div>
 	<slot />
 	<Footer />
