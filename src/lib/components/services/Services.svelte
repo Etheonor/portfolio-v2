@@ -11,7 +11,7 @@
 		id="services"
 		class="flex flex-col justify-center lg:justify-between space-y-7 max-w-lg lg:max-w-full m-auto animate scroll-my-24"
 	>
-		<h2 class="text-5xl lg:text-center">
+		<h2 class="text-5xl lg:text-center font-semibold">
 			Mes <span class="text-mountain-meadow-500">services</span> de développement web
 		</h2>
 		<div

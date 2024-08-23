@@ -7,7 +7,7 @@
 		id="contact"
 		class="flex flex-col justify-center lg:justify-between space-y-7 max-w-lg lg:max-w-xl m-auto"
 	>
-		<h2 class="text-5xl">
+		<h2 class="text-5xl font-semibold">
 			Parlez-moi de votre <span class="text-mountain-meadow-500">projet</span>
 		</h2>
 		<p class="max-w-xl m-auto">

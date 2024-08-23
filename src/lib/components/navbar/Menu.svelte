@@ -1,15 +1,13 @@
 <script>
 	import { page } from '$app/stores';
 
-	// Fonction pour déterminer si on est sur la page d'accueil
-	$: isHomePage = $page.url.pathname === '/';
+	// Fonction pour déterminer si on est sur la page d'accueil sans ancre
+	$: isHomePage = $page.url.pathname === '/' && !$page.url.hash;
 </script>
 
 <ul class="lg:flex space-x-7 hidden">
 	<li>
-		<a
-			href="/"
-			class="{$page.url.hash == '' ? 'text-white' : 'text-silver-300'} hover:text-white transition"
+		<a href="/" class="{isHomePage ? 'text-white' : 'text-silver-300'} hover:text-white transition"
 			>Accueil</a
 		>
 	</li>
@@ -35,6 +33,14 @@
 			class="{$page.url.hash == '#services'
 				? 'text-white'
 				: 'text-silver-300'} hover:text-white transition">Services</a
+		>
+	</li>
+	<li>
+		<a
+			href="/offres"
+			class="{$page.url.pathname == '/offres'
+				? 'text-white'
+				: 'text-silver-300'} hover:text-white transition">Offres</a
 		>
 	</li>
 </ul>
