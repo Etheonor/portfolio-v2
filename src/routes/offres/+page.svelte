@@ -20,14 +20,14 @@
 	</div>
 	<div class="flex flex-col space-y-2">
 		<div class="flex flex-col lg:flex-row space-y-6 lg:space-y-0 lg:space-x-6 m-auto">
-			<Card title="Basique" price="900€ TTC" subtitle="+9€/mois de frais de gestion">
+			<Card title="Basique" price="900€" subtitle="+9€/mois de frais de gestion">
 				<ul class="list-disc font-light p-5 flex flex-col space-y-5">
 					<li>1 page principale</li>
 					<li>Formulaire de contact</li>
 					<li>Édition de contenu illimitée pendant un an</li>
 				</ul>
 			</Card>
-			<Card title="Complète" price="1950€ TTC" subtitle="+15€/mois de frais de gestion">
+			<Card title="Complète" price="1950€" subtitle="+15€/mois de frais de gestion">
 				<ul class="list-disc font-light p-5 flex flex-col space-y-5">
 					<li>Tout le contenu de l’offre basique</li>
 					<li>5 pages uniques</li>
